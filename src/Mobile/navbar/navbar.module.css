@@ -1,0 +1,116 @@
+.mainDiv{
+    width: 100%;
+    height: 18.83vw;
+    background: rgba(10, 25, 47, 1);
+    position: fixed;
+    z-index: 3;
+}
+.navbarButton{
+    height: 18.83vw;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.navbarButtonSvg{
+    position: absolute;
+    right: 6.361vw;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    height: 6vw;
+}
+.navbarContainer{
+    width: 100%;
+    height: 100vh;
+    left: 100vw;
+    background: rgba(10, 25, 47, 1);
+    position: absolute;
+    transition-duration: 1s;
+}
+.navbarContainerClicked{
+    width: 100%;
+    height: 100vh;
+    left: 0vw;
+    background: rgba(10, 25, 47, 1);
+    position: absolute;
+    transition-duration: 1s;
+    filter: blur(9vw)brightness(1.5);
+}
+.navbarDivClicked{
+    width: 75vw;
+    height: 100vh;
+    background: rgba(198, 208, 239, 1);
+    position: absolute;
+    right: 0;
+    transition-duration: 1s;
+}
+.navbarDiv{
+    width: 75vw;
+    height: 100vh;
+    background: rgba(198, 208, 239, 1);
+    position: absolute;
+    right: -75vw;
+    transition-duration: 1s;
+}
+.headingText{
+    line-height: 8.142vw;
+    margin-top: 40vw;
+    text-align: center;
+}
+
+.headingText p{
+    font-size: 6.107vw;
+    font-weight: 700;
+    font-family: 'Calibri';
+    color: rgba(10, 25, 47, 1);
+}
+.emailText{
+    font-size: 4.071vw !important; 
+    font-weight: 300 !important; 
+    font-family: 'Calibri' !important; ;
+    color: rgba(10, 25, 47, 1) !important; 
+    margin-top: 12.723vw !important;
+}
+.headingText p span{
+    font-family: 'DM Mono';
+    font-size: 3.562vw;
+    font-weight: 400;
+    margin-right: 2vw;
+    color: rgba(152, 155, 160, 1);
+}
+.buttonDiv{
+    height: 12.468vw;
+    margin: 16.641vw auto auto;
+    width: 26.209vw;
+}
+.button{
+    font-family: 'Calibri';
+    width: 26.209vw;
+    height: 12.468vw;
+    background: transparent;
+    border: 0.5vw solid rgba(10, 25, 47, 1);
+    border-radius: 1.254vw;
+    font-size: 4.835vw;
+    color: rgba(10, 25, 47, 1);
+}
+.socialDiv{
+    width: 75vw;
+    height: 6.064vw;
+    margin-top: 12.723vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 6vw;
+}
+.leftLine{
+    width: 20.463vw;
+    height: 0.3vw;
+    background-color: rgba(10, 25, 47, 1);
+    margin: auto;
+}
+.rightLine{
+    width: 20.463vw;
+    height: 0.3vw;
+    background-color: rgba(10, 25, 47, 1);
+    margin: auto;
+}

@@ -1,0 +1,84 @@
+.mainDiv{
+    position: relative;
+    height: 17.969vw;
+    width: 38.542vw;
+    /* background-color: rgba(10, 25, 47, 1); */
+}
+.text1{
+    position: absolute;
+    width: fit-content;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.text1 p{
+    font-size: 1.042vw;
+    font-family: 'DM MONO';
+    color:  rgba(155, 159, 161, 1);
+    
+}
+.text2{
+    position: absolute;
+    width: fit-content;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 1vw;
+}
+.text2 p{
+    font-size: 3.802vw;
+    font-family: 'Calibri';
+    font-weight: 700;
+    color:  rgba(204, 214, 246, 1);
+    
+}
+.text3{
+    position: absolute;
+    width: 36vw;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 6.5vw;
+}
+.text3 p{
+    font-size: 1.146vw;
+    font-family: 'DM MONO';
+    color:  rgba(135, 145, 175, 1);   
+}
+.helloButton{
+    position: absolute;
+    width: 8.854vw;
+    height: 3.646vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 10.5vw;
+    border-radius: 0.208vw;
+}
+.helloButton button{
+    font-size: 1.146vw;
+    color: rgba(152, 155, 160, 1);
+    width: 8.854vw;
+    height: 3.646vw;
+    background-color: transparent;
+    border-radius: 0.208vw;
+    border: 0.052vw solid rgba(152, 155, 160, 1);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    animation-duration: 0.3s;
+    font-family: 'Calibri';
+}
+.helloButton button:hover{
+    font-family: 'Calibri';
+    font-size: 1.146vw;
+    color: rgba(152, 155, 160, 1);
+    width: 8.854vw;
+    height: 3.646vw;
+    border-radius: 0.208vw;
+    transition-duration: 0.3s;
+    animation-duration: 0.3s;
+    background-color: rgba(152, 155, 160, 0.3);
+    border: 0.052vw solid rgba(152, 155, 160, 1);
+    cursor: pointer;
+}

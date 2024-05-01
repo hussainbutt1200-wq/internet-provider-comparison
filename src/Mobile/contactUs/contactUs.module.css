@@ -1,0 +1,72 @@
+.mainDiv{
+    width: 100%;
+    position: relative;
+    height: 125.501vw;
+    background-color:rgba(10, 25, 47, 1);
+}
+.container{
+    width: 84.478vw;
+    height: 103.336vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.headingDiv{
+    display: flex;
+    width: 92.385vw;
+    justify-content: space-between;
+}
+.headingText p{
+    font-size: 6.107vw;
+    font-weight: 700;
+    font-family: 'Calibri';
+    color:  rgba(204, 214, 246, 1);
+}
+.headingText p span{
+    font-family: 'DM Mono';
+    font-size: 3.562vw;
+    font-weight: 400;
+    margin-right: 2vw;
+    color: rgba(152, 155, 160, 1);
+}
+.headingLine{
+    margin: auto;
+    width: 46vw;
+    height: 0.105vw;
+    background-color: rgba(152, 155, 160, 1);
+    border-radius: 0.5vw;
+}
+.getText{
+    font-size: 12.723vw;
+    color: rgba(204, 214, 246, 1);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5.634vw;
+}
+.inboxText{
+    font-size: 4.580vw;
+    color: rgba(163, 173, 204, 1);
+    font-family: 'Calibri';
+    text-align: center;
+    margin-top: 7.634vw;
+    line-height: 7.634vw;
+}
+.buttonDiv{
+    width: 43.766vw;
+    height: 17.812vw;
+    margin: auto;
+    margin-top: 15.267vw;
+}
+.button{
+    font-family: 'Calibri';
+    width: 43.766vw;
+    height: 17.812vw;
+    background: transparent;
+    border: 0.5vw solid rgba(152, 155, 160, 1);
+    border-radius: 1.254vw;
+    font-size: 5.598vw;
+    color: rgba(152, 155, 160, 1);
+}

@@ -1,0 +1,197 @@
+.mainDiv{
+position: relative;
+width: 100%;
+height: 5.990vw;
+/* background-color: rgba(10, 25, 47, 1); */
+}
+.navbarDiv{
+    width: 37.865vw;
+    height: 2.552vw;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.text{
+    font-size: 0.990vw;
+    font-family: 'Calibri';
+    color: rgba(198, 208, 239, 1);
+    transition-duration: 0.3s;
+    font-weight: 400;
+    }
+.text:hover{
+    font-size: 0.990vw;
+    font-weight: 400;
+    font-family: 'Calibri';
+    transition-duration: 0.3s;
+    color: rgba(152, 155, 160, 1);
+    }
+.numeric{
+    font-size: 0.781vw;
+    margin-right: 0.26vw;
+    font-family: 'DM Mono';
+    color: rgba(152, 155, 160, 1);
+}
+.aboutText{
+    height: fit-content;
+    width: 3.8vw;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    top: -4vw;
+    opacity: 0;
+    transition-duration: 0.3s;
+    animation-duration: 0.3s;
+}
+.aboutTextAfter{
+    height: fit-content;
+    width: 3.8vw;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    cursor: pointer;
+    opacity: 1;
+    transition-duration: 0.3s;
+    animation-duration: 0.3s;
+}
+.experienceText{
+    height: fit-content;
+    width: 5.8vw;
+    position: absolute;
+    bottom: 0;
+    top: -4vw;
+    margin: auto;
+    left: 6.354vw;
+    cursor: pointer;
+    opacity: 0;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    animation-duration: 0.3s;
+}
+.experienceTextAfter{
+    height: fit-content;
+    width: 5.8vw;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    left: 6.354vw;
+    cursor: pointer;
+    opacity: 1;
+    transition-duration: 0.3s;
+    transition-delay: 0.2s;
+    animation-duration: 0.3s;
+}
+.workText{
+    height: fit-content;
+    width: 4.5vw;
+    position: absolute;
+    bottom: 0;
+    top: -4vw;
+    margin: auto;
+    left: 13.754vw;
+    cursor: pointer;
+    opacity: 1;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    animation-duration: 0.3s;
+}
+.workTextAfter{
+    height: fit-content;
+    width: 4.5vw;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 13.754vw;
+    cursor: pointer;
+    opacity: 1;
+    top: 0vw;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    animation-duration: 0.3s;
+}
+.contractText{
+    height: fit-content;
+    width: 6.5vw;
+    position: absolute;
+    bottom: 0;
+    top: -4vw;
+    margin: auto;
+    left: 20.3vw;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-delay: 0.5s;
+    animation-duration: 0.3s;
+}
+.contractTextAfter{
+    height: fit-content;
+    width: 6.5vw;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 20.3vw;
+    cursor: pointer;
+    top: 0vw;
+    transition-duration: 0.3s;
+    transition-delay: 0.5s;
+    animation-duration: 0.3s;
+}
+.resumeButton{
+    position: absolute;
+    width: 5.365vw;
+    height: 2.552vw;
+    border-radius: 0.208vw;
+    left: 28.490vw;
+    font-size: 0.990vw;
+    color:rgba(152, 155, 160, 1);
+    font-family: 'Calibri';
+    background-color: transparent;
+    border: 0.052vw solid rgba(152, 155, 160, 1);
+    cursor: pointer;
+    top: -4vw;
+    opacity: 0;
+    transition-duration: 0.3s;
+    transition-delay: 0.6s;
+    animation-duration: 0.3s;
+}
+.resumeButtonAfter{
+    position: absolute;
+    width: 5.365vw;
+    height: 2.552vw;
+    border-radius: 0.208vw;
+    left: 28.490vw;
+    font-size: 0.990vw;
+    color:rgba(152, 155, 160, 1);
+    font-family: 'Calibri';
+    background-color: transparent;
+    border: 0.052vw solid rgba(152, 155, 160, 1);
+    cursor: pointer;
+    top: 0vw;
+    opacity: 1;
+    transition-duration: 0.3s;
+    transition-delay: 0.6s;
+    animation-duration: 0.3s;
+}
+.resumeButtonAfter:hover {
+    position: absolute;
+    width: 5.365vw;
+    height: 2.552vw;
+    border-radius: 0.208vw;
+    left: 28.490vw;
+    font-size: 0.990vw;
+    color: rgba(198, 208, 239, 1);
+    font-family: 'Calibri';
+    background-color: rgba(152, 155, 160, 0.3);
+    border: 0.052vw solid rgba(152, 155, 160, 1);
+    cursor: pointer;
+    top: 0vw;
+    opacity: 1;
+    transition-duration: 0.3s;
+    animation-duration: 0.3s;
+    transition-delay: 0s;
+}

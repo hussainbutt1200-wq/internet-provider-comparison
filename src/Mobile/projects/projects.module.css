@@ -1,0 +1,86 @@
+.mainDiv{
+    width: 100%;
+    height: 517.341vw;
+    background: rgba(10, 25, 47, 1);
+}
+.headingDiv{
+    position: absolute;
+    left: 6.361vw;
+    top: 27.481vw;
+    display: flex;
+    width: 89.385vw;
+    justify-content: space-between;
+}
+.headingText p{
+    font-size: 6.107vw;
+    font-weight: 700;
+    font-family: 'Calibri';
+    color:  rgba(204, 214, 246, 1);
+}
+.headingText p span{
+    font-family: 'DM Mono';
+    font-size: 3.562vw;
+    font-weight: 400;
+    margin-right: 2vw;
+    color: rgba(152, 155, 160, 1);
+}
+.headingLine{
+    margin: auto;
+    width: 19vw;
+    height: 0.105vw;
+    background-color: rgba(152, 155, 160, 1);
+    border-radius: 0.5vw ;
+}
+.container{
+    width: 87.277vw;
+    height: 193vw;
+    position: absolute;
+    right: 0;
+    top: 38.422vw;
+    left: 0;
+    margin: auto;
+}
+.projectImage{
+    height: 48.601vw;
+    width: 87.277vw;
+    background-color: black;
+}
+.projectHeading{
+    font-size: 3.562vw;
+    font-family: 'DM MONO';
+    color: rgba(152, 155, 160, 1);
+    text-align: center;
+    margin-top: 2.545vw ;
+}
+.projectName{
+    font-size: 5.598vw;
+    font-weight: 700;
+    font-family: 'Calibri';
+    color: rgba(185, 196, 227, 1);
+    text-align: center;
+    margin-top: 2.545vw ;
+}
+.discriptionDiv{
+    width: 87.277vw;
+    height: 38.168vw;
+    margin-top: 7.634vw;
+    background-color: rgba(17, 34, 64, 1);
+}
+.discriptionText{
+    font-family: 'Calibri';
+    font-size: 4.580vw;
+    color: rgba(163, 173, 204, 1);
+    text-align: center;
+    padding-top: 7vw;
+}
+pre{
+    font-family: 'Calibri';
+    font-size: 4.071vw;
+    color: rgba(154, 165, 195, 1);
+    text-align: center;
+}
+.gitSvg{
+    width: 5.623vw;
+    height: 6.064vw;
+    margin: auto;
+}

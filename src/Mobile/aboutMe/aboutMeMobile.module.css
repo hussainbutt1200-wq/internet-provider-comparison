@@ -1,0 +1,97 @@
+p{
+    margin: 0;
+}
+.mainDiv{
+    background-color: #0a192f;
+    height: 370.684vw;
+    width: 100%;
+}
+.headingDiv{
+    position: absolute;
+    left: 6.361vw;
+    top: 27.481vw;
+    display: flex;
+    width: 92.385vw;
+    justify-content: space-between;
+}
+.headingText p{
+    font-size: 6.107vw;
+    font-weight: 700;
+    font-family: 'Calibri';
+    color:  rgba(204, 214, 246, 1);
+}
+.headingText p span{
+    font-family: 'DM Mono';
+    font-size: 3.562vw;
+    font-weight: 400;
+    margin-right: 2vw;
+    color: rgba(152, 155, 160, 1);
+}
+.headingLine{
+    margin: auto;
+    width: 52vw;
+    height: 0.105vw;
+    background-color: rgba(152, 155, 160, 1);
+    border-radius: 0.5vw;
+}
+.image{
+    position: absolute;
+    width: 73.791vw;
+    height: 87.094vw;
+    background-color: rgba(217, 217, 217, 1);
+    top: 45.802vw;
+    left: 15.522vw;
+    border-radius: 1.018vw;
+    z-index: 1;
+    overflow: hidden;
+}
+.imageBorder{
+    position: absolute;
+    width: 73.791vw;
+    height: 87.094vw;
+    border: 0.654vw solid rgba(152, 155, 160, 1);
+    top: 50.891vw;
+    left: 10.433vw;
+    border-radius: 1.018vw;
+}
+.textContainer{
+    width: 89.277vw;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 154.707vw;
+    margin: auto;
+}
+.greetingText{
+    font-size: 3.817vw;
+    font-weight: 300;
+    color:rgba(136, 146, 176, 1);
+    font-family: 'Calibri';
+}
+.greetingText span{
+    color: rgba(162, 166, 168, 1);
+    font-style: italic;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-weight: 700;
+}
+.mobileList {
+    list-style: none;
+    font-family: inherit;
+    font-family: 'DM Mono';
+    font-size: 4.071vw;
+    font-weight: 700;
+    color: rgba(136, 146, 176, 1);
+  } 
+  
+  .mobileListPoints {
+    display: list-item;
+    text-align: left; /* Align list items properly */
+  }
+  
+  .mobileListPoints::before {
+    content: "\25B7"; /* Unicode bullet symbol */
+    color: rgba(162, 166, 168, 1); /* Bullet color */
+    font-weight: bold;
+    padding-right: 0.781vw;
+  }

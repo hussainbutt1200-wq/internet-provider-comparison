@@ -1,0 +1,213 @@
+.mainDiv{
+    position: relative;
+    width: 66.927vw;
+    height: 26.719vw;
+    /* background-color: rgba(10, 25, 47, 1); */
+}
+.headingDiv{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 43.385vw;
+    justify-content: space-between;
+}
+.headingText p{
+    cursor: context-menu;
+    font-size: 2.031vw;
+    font-weight: 700;
+    font-family: 'Calibri';
+    color:  rgba(204, 214, 246, 1);
+}
+.headingText p span{
+    font-family: 'DM Mono';
+    font-size: 1.250vw;
+    font-weight: 400;
+    margin-right: 0.625vw;
+    color: rgba(152, 155, 160, 1);
+}
+.headingLine{
+    margin: auto;
+    width: 20vw;
+    height: 0.105vw;
+    background-color: rgba(152, 155, 160, 1);
+    border-radius: 0.5vw;
+}
+.projectMainDiv{
+    position: relative;
+    width: 66.927vw;
+    height: 21.875vw;
+    /* background-color: rgba(10, 25, 47, 1); */
+    top: 4.792vw;
+    margin-bottom: 3vw;
+}
+.imageDiv{ /* done */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 37.708vw;
+    height: 21.875vw;
+    filter: grayscale(1);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.imageDiv:hover{ /* done */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 37.708vw;
+    height: 21.875vw;
+    filter: grayscale(0);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.imageDivOdd{ /* done */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 37.708vw;
+    height: 21.875vw;
+    filter: grayscale(1);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.imageDivOdd:hover{ /* done */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 37.708vw;
+    height: 21.875vw;
+    filter: grayscale(0);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.projectDetails{ /* done */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 29.219vw;
+    height: 21.875vw;
+}
+.projectDetailsOdd{ /* done */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 29.219vw;
+    height: 21.875vw;
+}
+.projectHeadingMainDiv{ /* done */
+    position: absolute;
+    top: 2vw;
+    right: 0;
+}
+.projectHeadingMainDivOdd{ /* done */
+    position: absolute;
+    top: 2vw;
+    left: 0;
+}
+.projectNameMainDiv{ /* done */
+    position: absolute;
+    top: 3vw;
+    right: 0;
+}
+.projectNameMainDivOdd{ /* done */
+    position: absolute;
+    top: 3vw;
+    left: 0;
+}
+.projectHeading{
+    font-family: 'DM MONO';
+    font-size: 0.885vw;
+    color: rgba(156, 161, 164, 1);
+    font-weight: 300;
+    cursor: default;
+}
+.projectName{
+    font-size: 1.823vw;
+    color: rgba(204, 214, 246, 1);
+    font-weight: 700;
+    font-family: 'DM MONO';
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.projectName:hover{
+    font-size: 1.823vw;
+    color: rgba(156, 161, 164, 1);
+    font-weight: 700;
+    font-family: 'DM MONO';
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.projectDicriptionMainDiv{ /* this one */
+    position: absolute;
+    top: 7vw;
+    right: 0;
+    width: 32.344vw;
+    height: 6.406vw;
+    background-color:rgba(17, 34, 64, 1);
+}
+.projectDicriptionMainDivOdd{ /* this one */
+    position: absolute;
+    top: 7vw;
+    left: 0;
+    width: 32.344vw;
+    height: 6.406vw;
+    background-color:rgba(17, 34, 64, 1);
+}
+.projectDicriptionMainDivOdd  P{
+    font-family: 'Calibri';
+    font-size: 1.146vw;
+    color: rgba(163, 173, 204, 1);
+    margin: auto;
+    text-align: center;
+    margin-top: 1vw;
+    line-height: 1.563vw;
+    cursor: default;
+}
+
+.projectDicriptionMainDiv  P{
+    font-family: 'Calibri';
+    cursor: default;
+    font-size: 1.146vw;
+    color: rgba(163, 173, 204, 1);
+    margin: auto;
+    text-align: center;
+    margin-top: 1vw;
+    line-height: 1.563vw;
+}
+.techMaindDiv{ /* this one */
+    position: absolute;
+    top: 13.5vw;
+    right: 0;
+}
+.techMaindDivOdd{ /* this one */
+    position: absolute;
+    top: 13.5vw;
+    left: 0;
+}
+.techMaindDiv Pre{
+    font-size: 1.042vw;
+    color: rgba(156, 161, 164, 1);
+    cursor: default;
+}
+.techMaindDivOdd Pre{
+    font-size: 1.042vw;
+    color: rgba(156, 161, 164, 1);
+    cursor: default;
+}
+.projectLinkMainDiv{ /* this one */
+    position: absolute;
+    top: 16.5vw;
+    right: 0;
+    width: 1.007vw;
+    height: 1.007vw;
+    cursor: pointer;
+}
+.projectLinkMainDivOdd{ /* this one */
+    position: absolute;
+    top: 16.5vw;
+    left: 0;
+    width: 1.007vw;
+    height: 1.007vw;
+    cursor: pointer;
+}
