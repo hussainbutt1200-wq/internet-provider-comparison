@@ -1,10 +1,14 @@
-import { Heading } from '@/lib/ui/common/Heading'
+// import { Heading } from '@/lib/ui/common/Heading'
 import React from 'react'
+import Navbar from '../components/Navbar'
+import Header from '../components/Header'
+// import Navbar from '@/lib/module/home/components/navbar'
 
 const Home = () => {
   return (
     <div>
-      <Heading as="h3">example</Heading>
+      <Navbar/>
+     <Header/>
     </div>
   )
 }
