@@ -1,4 +1,4 @@
-import Card from "@/lib/ui/card";
+import Card from "@/lib/ui/Card";
 import { Paragraph } from "@/lib/ui/common/Paragraph";
 import React from "react";
 import styled from "styled-components";
@@ -16,14 +16,17 @@ const UsePurpose = () => {
           Elevate Entertainment - Connect with Family - Boost your Business
         </Paragraph>
       </SecondHeading>
-     <CardContainer>
-     <CardWrapper>
-     <Card/>
-     </CardWrapper>
-     <CardWrapper>
-     <Card/>
-     </CardWrapper>
-     </CardContainer>
+      {/* <CardWrapper>
+        <Card url="/assets/card_image1.png" />
+      </CardWrapper> */}
+      <CardContainer>
+        <CardWrapper>
+          <Card url="/assets/card_image2.png" />
+        </CardWrapper>
+        <CardWrapper>
+          <Card url="/assets/card_image3.png" />
+        </CardWrapper>
+      </CardContainer>
     </MainDiv>
   );
 };
@@ -32,12 +35,12 @@ export default UsePurpose;
 
 const MainDiv = styled.div`
   width: 90vw;
-  height: 85vh;
+  height: fit-content;
   margin: auto;
   padding-top: 50px;
 `;
 const FirstHeading = styled.div`
-  width: 959px;
+  width: 90%;
   color: var(--primary-color);
   text-align: center;
   margin: auto;
@@ -50,12 +53,15 @@ const SecondHeading = styled.div`
   margin-top: 10px;
 `;
 const CardWrapper = styled.div`
-    width: 36.04%;
-    height: 37.60%;
-`
+  width: 692px;
+  height: 722px;
+`;
 
 const CardContainer = styled.div`
-    width: 74.17%;
-    height: 1208px ;
-    display: flex;
-`
+  width: 90%;
+  height: fit-content;
+  display: flex;
+  gap: 5%;
+  margin-top: 60px !important;
+  margin: auto;
+`;

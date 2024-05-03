@@ -14,7 +14,10 @@ const Header = () => {
           </Paragraph>
         </LeftWrapper>
         <RightWrapper>
-          <Paragraph textsize="ex-large">
+          <Paragraph
+            textsize="ex-large"
+            style={{ color: "var( --white-color)" }}
+          >
             best prices, plans. speed & rating near your area - USA.
           </Paragraph>
           <Button
@@ -38,18 +41,16 @@ const MainDiv = styled.div`
   background-image: url("/assets/header_img.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 380px;
-  @media (max-width: 991px) {
-    max-width: 100%;
-    margin-right: 10px;
-    padding: 0 20px;
-  }
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
 `;
 const ContentDiv = styled.div`
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 `;
 const RightWrapper = styled.div`
   display: flex;
@@ -61,6 +62,6 @@ const RightWrapper = styled.div`
 `;
 
 const LeftWrapper = styled.div`
-  width: 700px;
-  color: var( --white-color);
+  width: 30%;
+  color: var(--white-color);
 `;

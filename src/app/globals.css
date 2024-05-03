@@ -13,18 +13,20 @@
   --heading-primary-font: "Alliance No.2", sans-serif;
   --heading-secondary-font: "Graphik", sans-serif;
   /* -----------font-size------------- */
-  --small-font: 17px;
+  --small-font:  15px;
   --medium-font: 18px;
   --large-font: 20px;
   --ex-large-font: 22px;
-  --sm-heading-font: 60px;
+  --sm-heading-font: 40px;
+  --md-heading-font: 60px;
   --lg-heading-font: 100px;
   /* -----------line-height------------- */
   --small-line-height: 28px;
   --medium-line-height: 20px;
   --large-line-height: 28px;
   --ex-large-line-height: 40px;
-  --sm-heading-line-height: 72.72px;
+  --sm-heading-line-height:48.48px;
+  --md-heading-line-height: 72.72px;
   --lg-heading-line-height: 100px;
 }
 

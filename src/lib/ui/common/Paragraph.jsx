@@ -18,7 +18,7 @@ export const Paragraph = styled.p`
       font-family: var(--heading-primary-font);
       font-size: var(--small-font);
       color: var(--secondary-color);
-      font-weight: 400;
+      font-weight: 300;
       line-height: var(--small-line-height);
       text-align: left;
       width: fit-content;
@@ -55,16 +55,26 @@ export const Paragraph = styled.p`
       width: fit-content;
     `}
     ${(props) =>
+    props.textsize === "md-heading" &&
+    css`
+      font-family: var(--heading-primary-font);
+      font-size: var(--md-heading-font);
+      font-weight: 400;
+      line-height: var(--md-heading-line-height);
+      text-align: center
+      width: fit-content;
+    `}
+    ${(props) =>
     props.textsize === "lg-heading" &&
     css`
       font-family: var(--heading-primary-font);
-      font-size: var( --lg-heading-font);
+      font-size: var(--lg-heading-font);
       font-weight: 400;
-      line-height: var( --lg-heading-line-height);
+      line-height: var(--lg-heading-line-height);
       letter-spacing: 0.01em;
       text-align: left;
       width: fit-content;
-      margin:auto;
+      margin: auto;
       letter-spacing: 1%;
     `}
   line-height: 1.4;
