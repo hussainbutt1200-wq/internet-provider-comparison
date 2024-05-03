@@ -2,32 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+:root {
+  /* -----------font-color------------- */
+  --primary-color: #28174b;
+  --secondary-color: #616161;
+  --third-color: #784ed1;
+  --white-color: #fff;
+
+  /* -----------font-family------------- */
+  --heading-primary-font: "Alliance No.2", sans-serif;
+  --heading-secondary-font: "Graphik", sans-serif;
+  /* -----------font-size------------- */
+  --small-font: 17px;
+  --medium-font: 18px;
+  --large-font: 20px;
+  --ex-large-font: 22px;
+  --sm-heading-font: 60px;
+  --lg-heading-font: 100px;
+  /* -----------line-height------------- */
+  --small-line-height: 28px;
+  --medium-line-height: 20px;
+  --large-line-height: 28px;
+  --ex-large-line-height: 40px;
+  --sm-heading-line-height: 72.72px;
+  --lg-heading-line-height: 100px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "Graphik";
+  src: url("/fonts/GraphikRegular.otf") format("opentype"),
+    url("/fonts/GraphikBlack.otf") format("opentype"),
+    url("/fonts/GraphikBlackItalic.otf") format("opentype"),
+    url("/fonts/GraphikBold.otf") format("opentype"),
+    url("/fonts/GraphikBoldItalic.otf") format("opentype"),
+    url("/fonts/GraphikExtralight.otf") format("opentype"),
+    url("/fonts/GraphikExtralightItalic.otf") format("opentype"),
+    url("/fonts/GraphikLight.otf") format("opentype"),
+    url("/fonts/GraphikLightItalic.otf") format("opentype"),
+    url("/fonts/GraphikMedium.otf") format("opentype"),
+    url("/fonts/GraphikMediumItalic.otf") format("opentype"),
+    url("/fonts/GraphikRegularItalic.otf") format("opentype"),
+    url("/fonts/GraphikSemibold.otf") format("opentype"),
+    url("/fonts/GraphikSemiboldItalic.otf") format("opentype"),
+    url("/fonts/GraphikSuper.otf") format("opentype"),
+    url("/fonts/GraphikSuperItalic.otf") format("opentype"),
+    url("/fonts/GraphikThin.otf") format("opentype"),
+    url("/fonts/GraphikThinItalic.otf") format("opentype");
 }
-
+@font-face {
+  font-family: "Alliance No.2";
+  src: url("/AllianceFont/Degarism Studio - Alliance No.2 Light.otf")
+      format("opentype"),
+    url("/AllianceFont/Degarism Studio - Alliance No.1 Light.otf")
+      format("opentype");
+}
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Alliance No.2", sans-serif;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-} */

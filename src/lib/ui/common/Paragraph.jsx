@@ -3,65 +3,69 @@ import styled, { css } from "styled-components";
 // If you want to convert it to HTML (e.g., h1 or p), you can use it as props
 export const Paragraph = styled.p`
   ${(props) =>
-    props.textSize === "small" &&
+    props.textsize === "small" &&
     css`
-      font-family: Alliance No.2;
-      font-size: 18px;
+      font-family: var(--heading-primary-font);
+      font-size: var(--medium-font);
       font-weight: 400;
-      line-height: 20px;
+      line-height: var(--medium-line-height);
       text-align: left;
       width: fit-content;
     `}
   ${(props) =>
-    props.textSize === "medium" &&
+    props.textsize === "medium" &&
     css`
-      font-family: Alliance No.2;
-      font-size: 17px;
+      font-family: var(--heading-primary-font);
+      font-size: var(--small-font);
+      color: var(--secondary-color);
       font-weight: 400;
-      line-height: 28px;
+      line-height: var(--small-line-height);
       text-align: left;
       width: fit-content;
     `}
   ${(props) =>
-    props.textSize === "large" &&
+    props.textsize === "large" &&
     css`
-      font-family: Alliance No.2;
-      font-size: 20px;
+      font-family: var(--heading-primary-font);
+      font-size: var(--large-font);
       font-weight: 300;
-      line-height: 28px;
+      line-height: var(--large-line-height);
       text-align: left;
       width: fit-content;
     `}
     ${(props) =>
-    props.textSize === "ex-large" &&
+    props.textsize === "ex-large" &&
     css`
-      font-family: Graphik;
-      font-size: 22px;
-      font-weight: 400;
-      line-height: 40px;
+      font-family: var(--heading-secondary-font);
+      font-size: var(--ex-large-font);
+      font-weight: 500;
+      line-height: var(--ex-large-line-height);
+      color: var(--primary-color);
       text-align: left;
       width: fit-content;
     `}
     ${(props) =>
-    props.textSize === "sm-heading" &&
+    props.textsize === "sm-heading" &&
     css`
-      font-family: Alliance No.2;
-      font-size: 60px;
+      font-family: var(--heading-primary-font);
+      font-size: var(--sm-heading-font);
       font-weight: 400;
-      line-height: 72.72px;
-      text-align: cente
+      line-height: var(--sm-heading-line-height);
+      text-align: center
       width: fit-content;
     `}
     ${(props) =>
-    props.textSize === "lg-heading" &&
+    props.textsize === "lg-heading" &&
     css`
-      font-family: Alliance No.2;
-      font-size: 100px;
+      font-family: var(--heading-primary-font);
+      font-size: var( --lg-heading-font);
       font-weight: 400;
-      line-height: 100px;
+      line-height: var( --lg-heading-line-height);
       letter-spacing: 0.01em;
       text-align: left;
       width: fit-content;
+      margin:auto;
+      letter-spacing: 1%;
     `}
   line-height: 1.4;
 `;

@@ -1,16 +1,16 @@
-// import { Heading } from '@/lib/ui/common/Heading'
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Header from '../components/Header'
-// import Navbar from '@/lib/module/home/components/navbar'
+import React from "react";
+import Navbar from "../components/Navbar";
+import Header from "../components/Header";
+import UsePurpose from "../components/UsePurpose";
 
 const Home = () => {
   return (
     <div>
-      <Navbar/>
-     <Header/>
+      <Navbar />
+      <Header />
+      <UsePurpose />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

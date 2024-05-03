@@ -1,37 +1,27 @@
-import React from 'react'
 import { Paragraph } from './common/Paragraph'
-import styled from "styled-components";
-import Row from './common/Row';
+import styled,{css} from "styled-components";
 
-const Button = () => {
+
+import React from 'react'
+
+
+const button = (props) => {
   return (
-   <ButtonTag>
-    <Row>
-    <Paragraph textSize='ex-large'>
-       Lets Find you the Perfect Plan
+   <ButtonTag style={{backgroundColor: props.bgClr, color: props.textClr}}>
+    <Paragraph textsize='ex-large'>
+      {props.text}
     </Paragraph>
-    </Row>
    </ButtonTag>
  
   )
 }
-
-export default Button
+export default button
 
 const ButtonTag = styled.button`
-
   width: 384px;
   height: 60px;
   margin: auto;
-  background-color: red;
   font-family: Graphik, sans-serif;
   border-radius: 8px;
-  background-color: #fff;
   color: #784ed1;
-  /* text-align: center; */
-  /* display: flex;
-  justify-content: center; */
-  /* @media (max-width: 991px) {
-    padding: 0 20px;
-  } */
 `;

@@ -1,5 +1,4 @@
 import { Paragraph } from "@/lib/ui/common/Paragraph";
-import Row from "@/lib/ui/common/Row";
 import React from "react";
 import styled from "styled-components";
 
@@ -12,16 +11,16 @@ const Navbar = () => {
       />
       <MainWrapper>
        <MenuWrapper>
-          <Paragraph textSize='small'>Internet</Paragraph>
-          <Paragraph textSize='small'>Cable/Landline</Paragraph>
-          <Paragraph textSize='small'>Phone</Paragraph>
-          <Paragraph textSize='small'>Blogs</Paragraph>
+          <Paragraph textsize='small'>Internet</Paragraph>
+          <Paragraph textsize='small'>Cable/Landline</Paragraph>
+          <Paragraph textsize='small'>Phone</Paragraph>
+          <Paragraph textsize='small'>Blogs</Paragraph>
         </MenuWrapper>
         <AboutUs>About Us</AboutUs>
         <VerticalLine />
         <NumberWrapper>
           <Img2 loading="lazy" src="/assets/phone_icon.svg" />
-          <Paragraph>Call Us - 111-0900-78601</Paragraph>
+          <Paragraph textsize='small'>Call Us - 111-0900-78601</Paragraph>
         </NumberWrapper>
       </MainWrapper>
     </MainDiv>
@@ -33,7 +32,6 @@ export default Navbar;
 const MainDiv = styled.div`
   display: flex;
   width: 100%;
-  max-width: 1796px;
   padding: 15px 60px;
   box-sizing: border-box;
   gap: 20px;
